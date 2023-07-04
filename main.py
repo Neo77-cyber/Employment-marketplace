@@ -104,7 +104,7 @@ class ApplyForJobResponse(BaseModel):
 
 register_tortoise(
     app,
-    db_url='postgres://qcqdrauj:SEjKGQOeljL_7nqWh_xUFiO5DlazJAWh@snuffleupagus.db.elephantsql.com/qcqdrauj',
+    db_url='YOUR-POSTGRES-KEY',
     modules={'models': ['db.models']},
     generate_schemas=True,
     add_exception_handlers=True,
