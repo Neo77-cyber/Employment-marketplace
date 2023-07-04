@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+passlib = "*"
+python-multipart = "*"
+bcrypt = "*"
+pyjwt = "*"
+aerich = "*"
+pytest = "*"
+requests = "*"
+httpx = "*"
+tortoise-orm = "==0.16.13"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
