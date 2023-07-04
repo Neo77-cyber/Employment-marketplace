@@ -15,6 +15,7 @@ pytest = "*"
 requests = "*"
 httpx = "*"
 tortoise-orm = "==0.16.13"
+asyncpg = "*"
 
 [dev-packages]
 
